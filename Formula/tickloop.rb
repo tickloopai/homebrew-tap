@@ -4,18 +4,18 @@
 class Tickloop < Formula
   desc "Terminal agent with market Ticks for self-directed investors"
   homepage "https://tickloop.ai"
-  version "0.2.1"
+  version "0.2.2"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.1/tickloop-aarch64-apple-darwin.tar.gz"
-      sha256 "a537ea9039186945061362f6548d780392675d3850dc7b0b15ce93001cb70e75"
+      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.2/tickloop-aarch64-apple-darwin.tar.gz"
+      sha256 "730e4d3801b886625b47c8a6abfcb200b861ea6916d84a4ee0bce2db1e3c9003"
     end
     on_intel do
-      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.1/tickloop-x86_64-apple-darwin.tar.gz"
-      sha256 "f98cac3b0365e7d5c2695397416b1cfde63fd1889c137460206b096ac00bd85e"
+      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.2/tickloop-x86_64-apple-darwin.tar.gz"
+      sha256 "17aa825cd50ef5a1a3430a77db8ce03dddcfdd917077b47fdb2b7a522bc3c9a2"
     end
   end
 

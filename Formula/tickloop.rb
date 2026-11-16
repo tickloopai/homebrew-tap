@@ -4,27 +4,27 @@
 class Tickloop < Formula
   desc "Terminal AI agent for code and office work, driven by live Ticks"
   homepage "https://tickloop.ai"
-  version "0.2.51"
+  version "0.2.59"
 
   on_macos do
     on_arm do
-      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.51/tickloop-aarch64-apple-darwin.tar.gz"
-      sha256 "2f70c2630af692b2f00ebeb299f9f161819157925bd8dbc0b3c5beaaf2270d34"
+      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.59/tickloop-aarch64-apple-darwin.tar.gz"
+      sha256 "2e4a5d2596a028fb71885770267cb9580769be3e372787d4af98559fed6a1ca1"
     end
     on_intel do
-      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.51/tickloop-x86_64-apple-darwin.tar.gz"
-      sha256 "e9e76ee031108af6021b076242cdff76a4043890b4f2502acf4cbf039fb960eb"
+      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.59/tickloop-x86_64-apple-darwin.tar.gz"
+      sha256 "2f3925a4f4515b77f0862cd2a365816c3a6b48e75367d70a6e92d85a7867f692"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.51/tickloop-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1be66c03fb2ffca5d40af6f747aad0ba61a863e6fa26e744a8dc427d74b79576"
+      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.59/tickloop-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4317cc68ce682e9e0b1d17842b8e9a5144f52e8fa3b620a7d97177e8d16a9ff7"
     end
     on_intel do
-      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.51/tickloop-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "54d8201d62d58dcac1f7d05c20c80de38e5e265cce47bb4ccf81ab8f82250cf1"
+      url "https://github.com/tickloopai/homebrew-tap/releases/download/v0.2.59/tickloop-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8fc70bb086597b7ee1d5d955127daed0ded829c4c5e3845bfe80b402e7bddca9"
     end
   end
 
